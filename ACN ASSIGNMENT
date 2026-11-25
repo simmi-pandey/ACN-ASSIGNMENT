@@ -1,0 +1,210 @@
+Scenario
+You have been appointed as a Network Administrator at TechNova Solutions Pvt. Ltd., an IT 
+company headquartered in Guwahati, Assam, with a branch office in Jorhat.
+The company has 130 employees distributed across its two offices.
+Head Office, Guwahati: 100 employees
+Branch Office, Jorhat: 30 employees
+The head office has the following departments:
+• Human Resources (HR)
+• Finance and Accounts
+• Software Development
+• Marketing and Sales
+• Administration
+The company currently faces several networking problems:
+1. Employees experience slow internet connectivity during working hours.
+2. Employees from different departments can access confidential files without proper 
+authorization.
+3. The branch office does not have a reliable and secure connection to the head office.
+4. Employees working from home need secure access to company resources.
+5. Network connectivity is interrupted when certain networking devices fail.
+6. The company plans to introduce video conferencing, cloud-based applications, 
+centralized file storage, and online collaboration tools.
+7. Management is concerned about unauthorized access, malware, data theft, and other 
+cybersecurity threats.
+The management has assigned you the responsibility of designing a secure, efficient, reliable, 
+and scalable computer network that addresses these challenge.
+Your Professional Role
+Assume that you are the Network Administrator and Network Infrastructure Consultant of 
+TechNova Solutions Pvt. Ltd.
+You are responsible for analyzing the company's requirements, designing the network 
+architecture, planning IP addressing, recommending networking devices, implementing 
+security measures, and developing troubleshooting procedures.
+Prepare a professional technical report presenting your proposed network solution to the 
+company's management.
+Assignment Tasks
+Task 1: Requirement Analysis and Network Architecture
+1. Identify the networking requirements of the company.
+2. Recommend a suitable network topology for the head office and justify your choice.
+3. Identify the types of networks required to connect the offices and support wireless 
+communication.
+4. Explain the roles of LAN, WAN, WLAN, routers, switches, wireless access points, 
+and servers in the proposed network.
+5. Draw a detailed network architecture diagram showing both offices, the internet 
+connection, networking devices, servers, employee computers, and the connection 
+between the offices.
+
+
+Task 1: Requirement Analysis and Network Architecture
+1.1 Introduction
+TechNova Solutions Pvt. Ltd. is an IT company headquartered in Guwahati, Assam, with a branch office in Jorhat. The company has a total of 130 employees, out of which 100 employees work at the Guwahati head office and 30 employees work at the Jorhat branch office.
+As the company is expanding its operations, it needs a well-organized, secure, and reliable computer network. At present, employees are facing problems such as slow internet speed, unauthorized access to confidential files, poor connectivity between the two offices, and network interruptions due to device failures.
+To solve these problems, I propose a network infrastructure that provides better connectivity, strong security, centralized data management, and easy communication between both offices.
+The proposed network will also support future requirements such as video conferencing, cloud-based applications, online collaboration, and remote working.
+1.2 Networking Requirements of the Company
+After analyzing the given situation, I have identified the following major networking requirements:
+1. High-speed internet connectivity
+The company needs a high-speed internet connection to ensure that employees can work smoothly without facing slow internet during office hours. A business-grade broadband or leased-line connection can be used.
+2. Department-wise network security
+The head office has five departments:
+•	Human Resources (HR)
+•	Finance and Accounts
+•	Software Development
+•	Marketing and Sales
+•	Administration
+Each department should have separate network access so that employees cannot access confidential information belonging to other departments without permission.
+3. Secure connection between both offices
+The Guwahati head office and Jorhat branch office must be connected through a secure WAN connection. A site-to-site VPN can be implemented to allow employees to share company resources safely.
+4. Remote access for employees
+Employees working from home should be able to access company files and applications securely. For this purpose, a remote-access VPN with multi-factor authentication (MFA) can be provided.
+5. Network reliability
+The network should continue working even if a particular networking device or internet connection fails. Backup internet connections and redundant networking devices should be used to reduce downtime.
+6. Support for modern applications
+The network should have sufficient bandwidth to support video conferencing, cloud applications, centralized file storage, and online collaboration tools.
+7. Strong cybersecurity
+The company needs proper security measures to protect its network from unauthorized access, malware, viruses, phishing attacks, and data theft.
+8. Scalability
+The network should be designed in such a way that new employees, computers, departments, and networking devices can be added easily in the future.
+1.3 Recommended Network Topology for the Head Office
+I recommend using a Star Topology for the Guwahati head office.
+In star topology, all computers and other network devices are connected to a central switch. Each department will have its own network connection through managed switches.
+Reasons for selecting Star Topology:
+1.	Easy to manage: All computers are connected through central switches, making network management easier.
+2.	Easy troubleshooting: If one computer or cable stops working, the other computers can continue working normally.
+3.	Better performance: Managed switches provide efficient communication between connected devices.
+4.	Easy expansion: New computers and devices can be connected without disturbing the existing network.
+5.	Improved security: VLANs can be configured to separate different departments and control network access.
+6.	Centralized monitoring: The network administrator can monitor connected devices from a central location.
+Conclusion: Star topology is suitable for TechNova Solutions because it is simple, reliable, cost-effective, and easy to expand as the company grows.
+1.4 Types of Networks Required
+The company will require the following types of networks:
+1. LAN (Local Area Network)
+LAN will be used within each office to connect desktop computers, printers, servers, and other devices. The Guwahati and Jorhat offices will each have their own LAN.
+2. WAN (Wide Area Network)
+WAN will connect the Guwahati head office with the Jorhat branch office. A site-to-site VPN over business internet connections will provide secure communication between both locations.
+3. WLAN (Wireless Local Area Network)
+WLAN will provide wireless connectivity to employees using laptops, smartphones, and other wireless devices. Wireless access points will be installed in both offices.
+4. VPN (Virtual Private Network)
+VPN will provide encrypted communication between the two offices and allow authorized employees to access company resources securely while working from home.
+1.5 Roles of Networking Devices and Technologies
+The following networking devices and technologies will be used to build the proposed network infrastructure.
+1. Router
+A router connects different networks and forwards data packets between them. In this company, routers will connect the internal office networks to the internet and establish communication between the Guwahati and Jorhat offices.
+2. Switch
+A switch connects multiple computers, printers, servers, and other devices within a LAN. Managed switches will be used to connect employees' computers and separate departments using VLANs.
+3. Wireless Access Point (WAP)
+A wireless access point allows employees to connect laptops, smartphones, and tablets to the company network through Wi-Fi. It will provide wireless connectivity in both offices.
+4. Server
+Servers will be used to store and manage company data and provide different services to employees. The company can use the following servers:
+•	File Server: Stores important company documents and allows authorized employees to access files.
+•	Database Server: Stores and manages company information.
+•	Application Server: Runs business applications used by employees.
+•	Authentication Server: Manages employee login details and access permissions.
+•	Backup Server: Maintains copies of important company data to prevent data loss.
+5. LAN (Local Area Network)
+LAN connects computers and other devices within a limited geographical area, such as an office building. It will help employees communicate and share resources within their respective offices.
+6. WAN (Wide Area Network)
+WAN connects networks over a large geographical distance. It will connect the Guwahati head office with the Jorhat branch office so that employees can securely share company resources.
+7. WLAN (Wireless Local Area Network)
+WLAN provides wireless network access to employees. It will allow employees to connect to the company network without using physical network cables.
+8. Firewall
+A firewall monitors incoming and outgoing network traffic and blocks unauthorized access. It will protect the company's internal network from external threats.
+1.6 Proposed Network Architecture Diagram
+The following diagram represents the proposed network architecture for TechNova Solutions Pvt. Ltd. It shows the connection between the Guwahati head office, Jorhat branch office, internet, servers, networking devices, and employee computers.
+```mermaid
+
+flowchart TB
+    INTERNET((Internet))
+    REMOTE[Remote Employees]
+    
+    INTERNET --> ISP1[Primary ISP]
+    INTERNET --> ISP2[Backup ISP]
+    REMOTE --> VPN[Remote Access VPN]
+
+    subgraph GUWAHATI["HEAD OFFICE - GUWAHATI (100 Employees)"]
+        ISP1 --> FW1[Firewall and Router]
+        ISP2 --> FW1
+        FW1 --> CORE[Core Layer 3 Switch]
+
+        CORE --> SERVER[Central Server Room]
+        SERVER --> FS[File Server]
+        SERVER --> DB[Database Server]
+        SERVER --> AUTH[Authentication and Backup Server]
+
+        CORE --> SW1[Managed Access Switches]
+        
+        SW1 --> HR[HR VLAN]
+        SW1 --> FIN[Finance VLAN]
+        SW1 --> DEV[Development VLAN]
+        SW1 --> MKT[Marketing and Sales VLAN]
+        SW1 --> ADM[Administration VLAN]
+
+        SW1 --> AP1[Wireless Access Points]
+        AP1 --> WIFI1[Authorized Wi-Fi Devices]
+    end
+
+    subgraph JORHAT["BRANCH OFFICE - JORHAT (30 Employees)"]
+        FW2[Branch Firewall and Router]
+        FW2 --> SW2[Managed Switch]
+        SW2 --> PC2[Employee Computers]
+        SW2 --> AP2[Wireless Access Point]
+        AP2 --> WIFI2[Wireless Devices]
+    end
+
+    FW1 <-->|Site-to-Site IPsec VPN over Internet| FW2
+    VPN --> FW1
+```
+Explanation of the Network Architecture
+The proposed architecture is divided into two main parts: the Guwahati head office and the Jorhat branch office.
+A. Head Office – Guwahati
+The head office has 100 employees and five departments. It will have the following network arrangements:
+1.	A primary and backup internet connection will be connected to the main firewall/router.
+2.	The firewall will protect the internal network from unauthorized external access.
+3.	A Layer 3 core switch will manage communication between different department networks.
+4.	Managed access switches will connect employee computers and other office devices.
+5.	Separate VLANs will be created for HR, Finance, Software Development, Marketing and Sales, and Administration.
+6.	A centralized server room will contain file, database, authentication, and backup servers.
+7.	Wireless access points will provide Wi-Fi connectivity to authorized employees.
+B. Branch Office – Jorhat
+The Jorhat branch has 30 employees. It will have a separate LAN consisting of employee computers, managed switches, wireless access points, and a firewall/router.
+The branch office will connect to the head office using a site-to-site IPsec VPN. This will allow employees to securely access shared files and applications available at the Guwahati head office.
+C. Connection Between Both Offices
+A secure VPN connection will be established between the two offices using their respective firewall devices.
+This connection will encrypt the data transmitted over the internet and help protect confidential company information from unauthorized access.
+D. Remote Employees
+Employees working from home will connect to the company's network using a remote-access VPN. Multi-factor authentication will be enabled to provide an additional layer of security.
+1.7 Department-wise Network Segmentation
+To improve security and control unauthorized access, I recommend dividing the head office network into five separate VLANs.
+Department	Network Segment
+HR	VLAN 10
+Finance and Accounts	VLAN 20
+Software Development	VLAN 30
+Marketing and Sales	VLAN 40
+Administration	VLAN 50
+Servers	VLAN 60
+Guest Wi-Fi	VLAN 70
+Each VLAN will have its own network segment. For example, employees working in HR will only be allowed to access HR-related files and applications according to their permissions.
+Access between VLANs will be controlled through firewall rules and Layer 3 access control lists (ACLs). Guest Wi-Fi users will be kept separate from the company's internal network.
+1.8 Benefits of the Proposed Network Architecture
+The proposed network architecture will provide several benefits to TechNova Solutions Pvt. Ltd.
+1.	Improved network speed: High-speed internet and managed switches will improve network performance during working hours.
+2.	Better data security: VLANs, firewalls, and access control policies will prevent unauthorized access to confidential information.
+3.	Reliable communication: The VPN connection will provide secure communication between Guwahati and Jorhat.
+4.	Remote working support: Employees will be able to access company resources securely from home.
+5.	Reduced downtime: Backup internet connections and redundant networking devices will help maintain network availability.
+6.	Centralized data management: Servers will make it easier to store, manage, and back up company information.
+7.	Future expansion: The network can support additional employees, devices, and applications as the company grows.
+1.9 Conclusion
+After analyzing the networking requirements of TechNova Solutions Pvt. Ltd., I recommend implementing a star-based network architecture using LAN, WAN, WLAN, and VPN technologies.
+The proposed design will connect the Guwahati head office and Jorhat branch office through a secure VPN connection. Department-wise VLANs will improve network security, while centralized servers will make data management easier.
+I have also recommended firewalls, managed switches, wireless access points, and backup internet connections to improve network performance and reliability.
+Overall, this network design will provide a secure, efficient, reliable, and scalable networking environment. It will solve the company's existing networking problems and also support its future IT requirements, such as cloud computing, video conferencing, and online collaboration tools.
